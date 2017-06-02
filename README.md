@@ -117,3 +117,8 @@ $ git pull upstream master
 $ git push origin master
 
 This pulls the changes from the original repository (the one pointed to by the upstream Git remote) and pushes them to your forked repository (the one pointed to by the origin remote).
+
+
+# Optional 
+https://confluence.atlassian.com/bitbucketserver/permanently-authenticating-with-git-repositories-776639846.html
+
