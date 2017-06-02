@@ -28,6 +28,7 @@ $ git remote add upstream https://github.com/username/training.git
 
 Now create a file called hello_world and commit it:
 $ git add hello_world.txt
+
 $ git commit -m 'describe the commit...' hello_world.txt
 
 # Push your changes
