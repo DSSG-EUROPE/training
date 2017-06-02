@@ -31,6 +31,11 @@ Git already added a Git remote named origin to the clone of the Git repository o
 
 $ git remote add upstream https://github.com/DSSG2017/training.git
 
+Confirm the remote is there:
+
+$ git remote -v
+
+
 Now create a file called hello_world and commit it:
 
 $ git add hello_world.txt
@@ -62,6 +67,10 @@ git checkout -b <new branch name>
 
 $ git checkout -b new-feature
 
+you can always check on which branch you are with:
+
+$ git branch
+
 As a general rule of thumb, you should limit a branch to one logical change. The definition of one logical change will vary from project to project and developer to developer, but the basic idea is that you should only make the necessary changes to implement one specific feature or enhancement.
 As you make changes to the files in the branch, you’ll want to commit those changes, building your changeset with git add and committing the changes using git commit. 
 
@@ -73,7 +82,7 @@ $ git commit -m 'your commit message' <filename>
 
 # Pushing Changes to GitHub
 So let’s say you’ve made the changes necessary to implement the specific feature or enhancement (the one “logical change”), and you’ve committed the changes to your local repository. The next step is to push those changes back up to GitHub.
-
+Edit the file hello world and commit your changes
 If you were working in a branch called new-feature, then pushing the changes you made in that branch back to GitHub would look like this:
 
 git push <remote> <branch>
