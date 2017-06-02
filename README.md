@@ -1,8 +1,11 @@
 # Installing:
 Install Git with Homebrew
 For OS X, you can follow these instructions to install Git:
+
 $ brew install git
+
 For Linux users:
+
 $ sudo apt-get install git
 
 # Create your own github account
@@ -17,7 +20,7 @@ Click the Fork button on the upper right-hand side of the repository’s page.
 ## Clone the repo 
  Clone the repository down to your local system using:
  
- $ git clone https://github.com/username/training.git
+$ git clone https://github.com/username/training.git
 
 Git will copy down the repository, both contents and commit history, to your system. Git will also add a Git remote called origin that points back to the forked repository in your GitHub account.
 If you were only interested in making a fork of the project and not contributing back to the original project, you could stop here. 
@@ -26,7 +29,7 @@ but if you want to contribute ...
 # Add a remote
 Git already added a Git remote named origin to the clone of the Git repository on your system, and this will allow you to push changes back up to the forked repository in your GitHub account using git commit (to add commits locally) and git push.
 
-$ git remote add upstream https://github.com/username/training.git
+$ git remote add upstream https://github.com/DSSG2017/training.git
 
 Now create a file called hello_world and commit it:
 
