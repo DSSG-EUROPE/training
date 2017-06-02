@@ -71,6 +71,10 @@ you can always check on which branch you are with:
 
 $ git branch
 
+Switch between branches and work on each independently. Do not forget to commit your changes to the your fork.
+$ git checkout master
+$ git checkout new-feature
+
 As a general rule of thumb, you should limit a branch to one logical change. The definition of one logical change will vary from project to project and developer to developer, but the basic idea is that you should only make the necessary changes to implement one specific feature or enhancement.
 As you make changes to the files in the branch, you’ll want to commit those changes, building your changeset with git add and committing the changes using git commit. 
 
@@ -98,12 +102,44 @@ Make someone on your team accept your pull request.
 If the maintainers accept your changes and merge them into the main repository, then there is a little bit of clean-up for you to do. First, you should update your local clone by using:
 
 $ git pull upstream master
+$ git push upstream master
 
 This pulls the changes from the original repository’s (indicated by upstream) master branch (indicated by master in that command) to your local cloned repository. One of the commits in the commit history will be the commit that merged your feature branch, so after you git pull your local repository’s master branch will have your feature branch’s changes committed. This means you can delete the feature branch (because the changes are already in the master branch):
 
+
+# Resolve conflicts
+
+If you encounter a merge conflict when you pull. Remember to first commit your changes , pull and then solve the conflicts:
+You can use vim or any editor, or even git mergetool to fix the conflicts.
+Then add the fixed file and commit
+
+$ git add filename.c
+
+$ git commit -m "using theirs"
+
+If you just want to force a merge either from theirs our ours :
+
+$ git checkout --ours filename.c
+
+$ git checkout --theirs filename.c
+
+
+
+If you want to merge branches then commit all your changes to the branch.
+# Merge the branch
+
+$ git checkout master
+
+$ git merge new-feature
+
+
+
+
+Delete the branch
 git branch -d <branch name>
 
 $ git branch -d new-feature
+
 
 Then you can update the master branch in your forked repository:
 $ git push origin master
