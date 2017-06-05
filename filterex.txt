@@ -1,0 +1,5 @@
+grep USW00094846 2016.csv | csvlook -H
+grep USW00094846 2016.csv > OHARE.csv
+sed s/PRCP/RAIN OHARE.csv > OHARErain.csv
+grep RAIN OHARErain.csv > OHARErainfinal.csv
+csvlook OHARErainfinal.csv
