@@ -1,0 +1,3 @@
+OHARE ghcnd-stations.txt
+grep USW00094846 2016.csv > 2016_OHARE.txt
+sed s/PRCP/RAIN/ 2016_OHARE.csv > 2016_OHARE_PRCP_RAIN.csv
