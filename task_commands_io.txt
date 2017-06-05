@@ -1,0 +1,2 @@
+cut -d , -f 1 ghcnd-stations.txt | grep OHARE 
+grep USW00094846 2016.csv > task.csv
