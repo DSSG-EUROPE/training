@@ -45,7 +45,7 @@ $ git commit -m 'describe the commit...' hello_world.txt
 # Push your changes
 Now, you could try pushing changes to the original repository using git push at this point, but it would probably fail because you probably don’t have permission to push changes directly to the repository. Besides, it really wouldn’t be a good idea. That’s because other people might be working on the project as well, and how in the world would we keep track of everyone’s changes? 
 
-git push <remote> <branch>
+git push \<remote\> \<branch\>
 
 $ git push upstream master
 
@@ -63,7 +63,7 @@ Because of the way that Git works, it’s incredibly fast and easy for developer
 
 To create a new branch and check it out (meaning tell Git you will be making changes to the branch), use this command:
 
-git checkout -b <new branch name>
+git checkout -b \<new branch name\>
 
 $ git checkout -b new-feature
 
@@ -80,16 +80,16 @@ As you make changes to the files in the branch, you’ll want to commit those ch
 
 Create another file and commit to this new branch :
 
-$ git add  <filename>
+$ git add  \<filename\>
 
-$ git commit -m 'your commit message' <filename> 
+$ git commit -m 'your commit message' \<filename\> 
 
 # Pushing Changes to GitHub
 So let’s say you’ve made the changes necessary to implement the specific feature or enhancement (the one “logical change”), and you’ve committed the changes to your local repository. The next step is to push those changes back up to GitHub.
 Edit the file hello world and commit your changes
 If you were working in a branch called new-feature, then pushing the changes you made in that branch back to GitHub would look like this:
 
-git push <remote> <branch>
+git push \<remote\> \<branch\>
 
 $ git push origin new-feature
 
@@ -136,7 +136,7 @@ $ git merge new-feature
 
 
 Delete the branch
-git branch -d <branch name>
+git branch -d \<branch name\>
 
 $ git branch -d new-feature
 
@@ -145,7 +145,7 @@ Then you can update the master branch in your forked repository:
 $ git push origin master
 And push the deletion of the feature branch to your GitHub repository 
 
-git push --delete origin <branch name>
+git push --delete origin \<branch name\>
 
 $ git push --delete origin new-feature
 
