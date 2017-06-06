@@ -1,0 +1,7 @@
+#Group activity
+grep OHARE ghcnd-stations.txt # Look up O'HARE station code
+grep USW00094846 2016.csv | csvlook -H > ohare.csv #Create a new file with only O'HARE 
+sed s/PRCP/RAIN/ ohare.csv | ohare_rain.csv #Change PRCP to RAIN
+cut -d , -f 3 ohare_rain.csv | grep RAIN > ohare_rain_final.csv 
+
+
