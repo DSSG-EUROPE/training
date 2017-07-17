@@ -1,0 +1,24 @@
+Target will launch its own mobile payments system this year
+Posted 6 hours ago by Sarah Perez (@sarahintampa)
+Next Story
+Ford hires Apple, Nike and Burberry alum to lead global branding efforts
+
+Target’s CartWheel application has grown to some 27 million shoppers who have used it over the past three years following its debut to save over $600 million at checkout. Now, the retailer hints it may be adding mobile payments to the app, and potentially its main Target application, as well. The company didn’t confirm which of the two, or if both, would be updated to include mobile payments functionality, only that it was planned for this year.
+
+However, it makes sense that Cartwheel would be updated with this feature. The app already offers consumers a barcode they display at checkout to save on their purchases, among other features. It’s basically a modern-day alternative to clipping coupons as users add selected savings to their list, then receive those discounts via the barcode scan. Adding the ability to also transact with a barcode scan seems to follow.
+
+The news was first reported by Recode, who spoke with Chief Information and Digital Officer Michael McNamara at the National Retail Federation conference in New York. (Target confirmed the report as accurate.)
+
+The retailer said that it would “at least initially” make its mobile payments service available to Target REDcard holders – a comment that doesn’t seem to rule out broadening its scope in the future.
+
+This would make Target the third major big box store to launch its own mobile payments system. Walmart introduced its own Walmart Pay at the end of 2015 and Kohl’s more recently debuted Kohl’s Pay, along with its own loyalty and rewards program, into its mobile app.
+
+But Target has an advantage in making its mobile payments platform work where others failed – including CurrentC, the payments system a consortium of retailers (including Target and Walmart) once backed.
+
+Meanwhile, Target’s CartWheel app is already popular with mainstream consumers, easily maintaining its top 10 status in the App Store’s “Shopping” category, for example. And according to a 2016 report, CartWheel isn’t just a popular download, it keeps people engaged, too. As of early last year, it had a reported 13 million-plus active user base.
+
+“CartWheel is Target’s mobile advantage over most other retailers. It gives Target a much larger and more frequent mobile application user base than almost any other retailer,”  Jason Goldberg, SVP of commerce and content at digital marketing agency Razorfish, previously noted.
+
+In other words, retailers in general may be fumbling with their mobile initiatives, but Target is something of an outlier in terms of real-world adoption and usage.
+
+That being said, REDcard holders only make up a portion of the app’s user base. That would make Target’s foray into mobile payments something that’s more of a perk for cardholders than a feature that would be universally adopted, unless Target chooses to expand this feature to be more inclusive.
